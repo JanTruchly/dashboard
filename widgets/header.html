@@ -1,0 +1,39 @@
+<div class="header">
+    <h2 id="greeting"></h2>
+
+    <script>
+        (function () {
+            const student = 'Student';
+            const greetingEL = document.getElementById('greeting');
+
+            function updateGreeting() {
+                const hour = new Date().getHours();
+                let msg = '';
+                if (hour < 12) {
+                    msg = 'dobry rano';
+                } else if (hour < 18) {
+                    msg = 'dobry odpoledne';
+                } else if (hour < 22) {
+                    msg = 'dobry vecer';
+                } else {
+                    msg = 'dobro noc';
+                }
+                greetingEL.textContent = msg + ',' + student + '!';
+
+            }
+            updateGreeting();
+
+        })();
+    </script>
+</div>
+
+<style>
+    .header{
+        background-color: rgb(251, 255, 0);
+color: whitesmoke;
+
+
+
+
+    }
+</style>
