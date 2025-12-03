@@ -43,5 +43,13 @@ body {
 }
 
 .widget.third {
-  grid-column: span 3; /* Polovina šířky - 6 sloupců */
+  grid-column: span 3; /* Polovina šířky - 3 sloupců */
+}
+
+.widget.one {
+  grid-column: span 1; /* Polovina šířky - 1 sloupců */
+}
+
+.widget.two {
+  grid-column: span 2; /* Polovina šířky - 2 sloupců */
 }
