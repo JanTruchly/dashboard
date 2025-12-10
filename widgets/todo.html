@@ -1,22 +1,22 @@
 <div class="todo-widget" x-data="todoWidget()">
     <h3>Úkoly</h3>
-    
-<div class="input-group">
-    <input type="text" x-model="newTodo" @keyup.enter="add()" placeholder="Nový úkol...">
-    <button @click="add()">+</button>
-</div>
 
-<ul>
-    <template x-for="todo in todos" :key="todo.id">
-        <li :class="{ 'completed': todo.completed }">
-            <div class="todo-item-content">
-                <input type="checkbox" x-model="todo.completed">
-                <span x-text="todo.text"></span>
-            </div>
-            <button @click="remove(todo.id)" class="delete-btn">&times;</button>
-        </li>
-    </template>
-</ul>
+    <div class="input-group">
+        <input type="text" x-model="newTodo" @keyup.enter="add()" placeholder="Nový úkol...">
+        <button @click="add()">+</button>
+    </div>
+
+    <ul>
+        <template x-for="todo in todos" :key="todo.id">
+            <li :class="{ 'completed': todo.completed }">
+                <div class="todo-item-content">
+                    <input type="checkbox" x-model="todo.completed">
+                    <span x-text="todo.text"></span>
+                </div>
+                <button @click="remove(todo.id)" class="delete-btn">&times;</button>
+            </li>
+        </template>
+    </ul>
 </div>
 
 
@@ -77,15 +77,19 @@
         cursor: pointer;
         padding: 250px;
         border-radius: 25000px;
+        background-image: url(https://preview.redd.it/you-like-kissing-boys-dont-you-boy-kisser-cat-meme-in-v0-7ot6md7faonb1.png?width=640&crop=smart&auto=webp&s=97abbf9bb8c3170b4ea31dd28e93da460b154c52);
+        background-size: 100% 100%;
+    }
+
+    .todo-widget button:hover {
         background-image: url(https://media.tenor.com/WP2NxV9cUYUAAAAe/shelf.png);
         background-size: 100% 100%;
     }
-    
-    .todo-widget button:hover {background: #800080;}
 
-    .todo-widget li{
-padding: 10px;
-border: 2px solid black;
-box-shadow: 1px 10px 100px rgba(255,255,0,3);
+
+    .todo-widget li {
+        padding: 10px;
+        border: 2px solid black;
+        box-shadow: 1px 10px 100px rgba(255, 255, 0, 3);
     }
 </style>
