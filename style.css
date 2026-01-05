@@ -11,6 +11,8 @@ body {
   min-height: 100vh;
 }
 
+
+
 #dashboard.grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -20,17 +22,17 @@ body {
 }
 
 .widget {
-  background: white;
+  
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px ;
   transition: transform 0.2s, box-shadow 0.2s;
   min-width: 0;
 }
 
 .widget:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px ;
 }
 
 /* Grid systém pro šířku widgetů */
@@ -53,3 +55,4 @@ body {
 .widget.two {
   grid-column: span 2; /* Polovina šířky - 2 sloupců */
 }
+
