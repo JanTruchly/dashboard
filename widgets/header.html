@@ -10,13 +10,13 @@
                 const hour = new Date().getHours();
                 let msg = '';
                 if (hour < 12) {
-                    msg = 'dobry rano';
+                    msg = 'Dobry rano';
                 } else if (hour < 18) {
-                    msg = 'dobry odpoledne';
+                    msg = 'Dobry odpoledne';
                 } else if (hour < 22) {
-                    msg = 'dobry vecer';
+                    msg = 'Dobry vecer';
                 } else {
-                    msg = 'dobro noc';
+                    msg = 'Dobro noc';
                 }
                 greetingEL.textContent = msg + ',' + student + '!';
 
@@ -27,13 +27,3 @@
     </script>
 </div>
 
-<style>
-    .header{
-        background-color: rgb(251, 255, 0);
-        color: purple;
-
-
-
-
-    }
-</style>

@@ -12,49 +12,60 @@ body {
   min-height: 100vh;
 }
 
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: var(--text-color);
+  font-weight: 900;
+
+}
+
 .simple-calc {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 6px;
-    background: var(--body-bg);
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  background: var(--body-bg);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
 }
 
 /* Displej */
 #calc-input {
-    grid-column: span 4;
-    text-align: right;
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid #aaa;
-    background: var(--body-bg);
-    outline: none;
+  grid-column: span 4;
+  text-align: right;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid var(--border);
+  background: var(--body-bg);
+  color: var(--text-color);
+  outline: none;
 }
 
 /* Všechna tlačítka */
 
 
 button:hover {
-    color: var(--text-color);
-    background: var(--body-bg);
+  color: var(--text-color);
+  background: var(--body-bg);
 }
 
 /* Tlačítko C přes celou šířku */
 .clear {
-    grid-column: span 4;
-    background: var(--body-bg);
-    font-weight: bold;
+  grid-column: span 4;
+  background: var(--body-bg);
+  font-weight: bold;
 }
 
 button {
-    padding: 10px;
-    font-size: 16px;
-    color: var(--text-color);
-    background: var(--body-bg);
-    border: 1px solid #aaa;
-    cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: var(--text-color);
+  background: var(--body-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
 }
 
 #dashboard.grid {
@@ -64,6 +75,8 @@ button {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+/* Widgets */
 
 .widget {
   background: var(--widget-bg);
@@ -81,22 +94,26 @@ button {
 
 /* Grid systém pro šířku widgetů */
 .widget.full {
-  grid-column: 1 / -1; /* Celá šířka - 12 sloupců */
+  grid-column: 1 / -1;
+  /* Celá šířka - 12 sloupců */
 }
 
 .widget.half {
-  grid-column: span 6; /* Polovina šířky - 6 sloupců */
+  grid-column: span 6;
+  /* Polovina šířky - 6 sloupců */
 }
 
 .widget.third {
-  grid-column: span 3; /* Polovina šířky - 6 sloupců */
+  grid-column: span 3;
+  /* Polovina šířky - 6 sloupců */
 }
 
 .widget.one {
-  grid-column: span 1; /* Polovina šířky - 1 sloupců */
+  grid-column: span 1;
+  /* Polovina šířky - 1 sloupců */
 }
 
 .widget.two {
-  grid-column: span 2; /* Polovina šířky - 2 sloupců */
+  grid-column: span 2;
+  /* Polovina šířky - 2 sloupců */
 }
-
