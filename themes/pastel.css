@@ -1,0 +1,10 @@
+:root {
+--body-bg: #f0ddd6;
+--widget-bg: #f0ddd6;
+--border: #a97366;
+--text-color: #a97366;
+--shadow-color: rgba(169, 115, 102,0.1);
+--shadow-hover: rgba(169, 115, 102,0.15);
+--primary-color: #3b82f6;
+--primary-color-text: #000000;
+}
