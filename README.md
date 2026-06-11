@@ -1,6 +1,14 @@
-***Toto je náš skvělý projekt!***
-Je to dashboard pro výuku HTML, CSS a JavaScriptu v hodinách WEBu.
+***My final project***
+My final project is Poker
 
-## Funkce
-- zobrazit pozdravu
-- zobrazeni casu (prirava)
+## How to play
+-When you start the program the dealer goes first then Its your turn
+-On your turn there will be a table with all the things you can do 
+-In the table the two option are hit or stand
+-To pick an option you need to type it
+-When you type hit you will draw a card from the deck ranging from ace to 10
+ -Ace being 1 or 11
+-When you type stand you will end your turn and you will get your result 
+ -Results range from a win, a push (tie) or a lost
+
+ <img width="452" height="373" alt="image" src="https://github.com/user-attachments/assets/0669df17-a7a0-4a8b-b76a-1c2bd3bd38d4" />
