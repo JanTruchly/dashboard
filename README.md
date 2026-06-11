@@ -1,4 +1,4 @@
-***My final project***
+## My final project
 - My final project is Poker
 
 ## How to play
