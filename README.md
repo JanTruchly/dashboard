@@ -13,7 +13,7 @@
 - When you type hit you will draw a card from the deck ranging from ace to 10
   - Ace being 1 or 11
 - When you type stand you will end your turn and you will get your result 
-  - Results range from a win, a push (tie) or a lost
+  - Results range from a win, a push (tie) or a loss
 
 ## Screenshot showcasing how it should look
 
