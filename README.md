@@ -2,7 +2,7 @@
 - My final project is Poker
 
 ## Object of the game
--Object of the game is to get higher than the dealer and as close to 21 without going over 21
+- Object of the game is to get higher than the dealer and as close to 21 without going over 21
 
 ## How to play
 - When you start the program the dealer goes first then Its your turn
