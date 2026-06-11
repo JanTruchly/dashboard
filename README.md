@@ -6,7 +6,7 @@
 
 ## How to play
 - When you start the program the dealer goes first then Its your turn
-  -This can lead to an immediate win if the dealer is over 21
+  - This can lead to an immediate win if the dealer is over 21
 - On your turn there will be a table with all the things you can do 
 - In the table the two option are hit or stand
 - To pick an option you need to type it
